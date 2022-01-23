@@ -5,9 +5,65 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fffcf7;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* header styles */
+
+h1 {
+  color: #6A040F;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 40%;
+}
+
+.logo img{
+  height: 75px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.nav a {
+  padding: 1% 2%;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 3px solid #999691;
+  color: #6A040F;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  background-color: #d3cfc8;
+}
+
+.float-text {
+  width: 30%;
+  align-self: center;
+  margin-right: 5%;
+}
+
+.float-right {
+  width: 40%;
+  background-image: url('./assets/DiviciMeaderyBanner.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
