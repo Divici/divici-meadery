@@ -1,11 +1,10 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fffcf7;
+  background-color: #fff9e5;
+  color: #222120;
 }
 
 code {
@@ -18,6 +17,13 @@ code {
 
 h1 {
   color: #6A040F;
+}
+
+button {
+  padding: 1% 3%;
+  background-color: #6A040F;
+  color: #fffcf7;
+  border: none;
 }
 
 header {
@@ -44,7 +50,7 @@ header {
   padding: 1% 2%;
   font-weight: bold;
   text-align: center;
-  border-bottom: 3px solid #999691;
+  border-bottom: 4px solid #b8b3a4;
   color: #6A040F;
 }
 
@@ -52,7 +58,7 @@ header {
   display: flex;
   justify-content: center;
   height: 500px;
-  background-color: #d3cfc8;
+  /* background-color: #d3cfc8; */
 }
 
 .float-text {
@@ -62,8 +68,25 @@ header {
 }
 
 .float-right {
-  width: 40%;
+  height: 500px;
+  width: 30%;
   background-image: url('./assets/DiviciMeaderyBanner.png');
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
+}
+
+/* best finished meads */
+
+.best-header {
+  text-align: center;
+  text-transform: uppercase;
+  color: #222120;
+  background-color: #b8b3a4;
+  padding: 3% 0;
+}
+
+.best-header p {
+  font-size: .75rem;
+  color: #5c5a58;
 }
