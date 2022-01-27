@@ -58,7 +58,7 @@ header {
   display: flex;
   justify-content: center;
   height: 500px;
-  /* background-color: #d3cfc8; */
+  margin: 2% 0;
 }
 
 .float-text {
