@@ -1,7 +1,9 @@
+import gallonMead from './../assets/WCC-Gallon.png';
 
 const meads = [
     {
         id: 0,
+        image: gallonMead,
         info: {
             name: 'White Caramel Mead',
             size: '1 Gallon',
@@ -36,6 +38,7 @@ const meads = [
 
     {
         id: 1,
+        image: gallonMead,
         info: {
             name: 'Value Apple Bochet',
             size: '5 gallons',
@@ -70,6 +73,7 @@ const meads = [
 
     {
         id: 2,
+        image: gallonMead,
         info: {
             name: '',
             size: 0,
@@ -104,6 +108,7 @@ const meads = [
 
     {
         id: 4,
+        image: gallonMead,
         info: {
             name: '',
             size: 0,
@@ -138,6 +143,7 @@ const meads = [
 
     {
         id: 5,
+        image: gallonMead,
         info: {
             name: '',
             size: 0,
@@ -172,6 +178,7 @@ const meads = [
 
     {
         id: 6,
+        image: gallonMead,
         info: {
             name: '',
             size: 0,
@@ -206,6 +213,7 @@ const meads = [
 
     {
         id: 7,
+        image: gallonMead,
         info: {
             name: '',
             size: 0,
@@ -240,6 +248,7 @@ const meads = [
 
     {
         id: 8,
+        image: gallonMead,
         info: {
             name: '',
             size: 0,
@@ -274,6 +283,7 @@ const meads = [
 
     {
         id: 9,
+        image: gallonMead,
         info: {
             name: '',
             size: 0,
@@ -308,6 +318,7 @@ const meads = [
 
     {
         id: 10,
+        image: gallonMead,
         info: {
             name: '',
             size: 0,
