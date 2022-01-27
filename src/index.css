@@ -12,6 +12,9 @@ code {
     monospace;
 }
 
+.flex {
+  display: flex;
+}
 
 /* header styles */
 
@@ -36,7 +39,7 @@ header {
 }
 
 .logo img{
-  height: 75px;
+  height: 100px;
 }
 
 .nav {
@@ -56,23 +59,25 @@ header {
 
 .banner {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   height: 500px;
-  margin: 2% 0;
+  margin: 2% 0 0;
+  /* background-color: #b8b3a4; */
 }
 
 .float-text {
   width: 30%;
   align-self: center;
-  margin-right: 5%;
+  margin: 0 15%;
+  /* background-image: linear-gradient( rgb(17, 26, 58), rgb(57, 147, 183)); */
 }
 
 .float-right {
-  height: 500px;
-  width: 30%;
-  background-image: url('./assets/DiviciMeaderyBanner.png');
-  background-size: contain;
-  background-position: center;
+  height: auto;
+  width: 50%;
+  background-image: url('./assets/DiviciMeaderyBanner2.png');
+  background-size: cover;
+  /* background-position: left; */
   background-repeat: no-repeat;
 }
 
@@ -81,12 +86,32 @@ header {
 .best-header {
   text-align: center;
   text-transform: uppercase;
-  color: #222120;
-  background-color: #b8b3a4;
+  color: #5c5a58;
   padding: 3% 0;
 }
 
 .best-header p {
   font-size: .75rem;
   color: #5c5a58;
+}
+
+/* mapping of best meads list container*/
+.best-meads {
+  padding: 0 0 1%;
+}
+
+.quick-info {
+  width: 60%;
+  justify-content: space-around;
+  background-color: #fffdf6;
+  margin: 0 auto 2%;
+  padding: 2% 0;
+}
+
+.info {
+  width: 30%;
+}
+
+.mead-img img{
+  height: 300px;
 }

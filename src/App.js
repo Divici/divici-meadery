@@ -1,5 +1,6 @@
 import logo from './assets/DiviciMeaderyLogoB.png';
-
+import meads from './data/meads';
+import bottleImg from './assets/MeadBottle1.png';
 
 
 function App() {
@@ -25,9 +26,41 @@ function App() {
         <div className='float-right'></div>
       </div>
 
+      {/* list of meads component */}
       <div className='best-header'>
         <p>Check out some of my work</p>
         <h2>Best Finished Meads</h2>
+      </div>
+
+      {/* mapping list start */}
+      <div className='best-meads'>  
+
+        <div className='quick-info flex'>
+          <div className='info'>
+            <h3>White Chocolate Caramel Mead</h3>
+            <h4>Decadent and Bold</h4>
+            <p>This experimental mead came from my love for white chocolate. It is a mix of floral notes with a buttery caramel throughout, leaving a subtle hint of white chocolate behind.</p>
+            <button>Details</button>
+          </div>
+
+          <div className='mead-img'>
+            <img src={bottleImg} alt='bottle of mead'></img>
+          </div>
+        </div>
+
+        <div className='quick-info flex'>
+          <div className='info'>
+            <h3>White Chocolate Caramel Mead</h3>
+            <h4>Decadent and Bold</h4>
+            <p>This experimental mead came from my love for white chocolate. It is a mix of floral notes with a buttery caramel throughout, leaving a subtle hint of white chocolate behind.</p>
+            <button>Details</button>
+          </div>
+
+          <div className='mead-img'>
+            <img src={bottleImg} alt='bottle of mead'></img>
+          </div>
+        </div>
+
       </div>
       
     </div>
