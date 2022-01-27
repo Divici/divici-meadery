@@ -60,7 +60,7 @@ header {
 .banner {
   display: flex;
   justify-content: space-between;
-  height: 500px;
+  height: 600px;
   margin: 2% 0 0;
   /* background-color: #b8b3a4; */
 }
@@ -114,4 +114,12 @@ header {
 
 .mead-img img{
   height: 300px;
+}
+
+.info:nth-of-type(2n+1) {
+  float: right;
+}
+
+.mead-img img:nth-of-type(2n+1) {
+  float: left;
 }

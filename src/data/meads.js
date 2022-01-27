@@ -10,7 +10,8 @@ const meads = [
             honey: ['Clover Honey'],
             yeast: 'D-47',
             status: 'Ongoing',
-            ABV: '~14%'
+            ABV: '~14%',
+            description: 'This experimental mead came from my love for white chocolate. It is a mix of floral notes with a buttery caramel throughout, leaving a subtle hint of white chocolate behind.'
         },
         primary:    {
             start: '10/02/2021',
@@ -45,7 +46,8 @@ const meads = [
             honey: ['Bocheted Pure Honey'],
             yeast: 'D-47',
             status: 'Aging',
-            ABV: '14%'
+            ABV: '14%',
+            description: 'This mead reminds you of a strong whiskey on a cold night topped off with a nice warm honey. Enjoy the subtle hints of vanilla in every sip.'
         },
         primary:    {
             start: '09/08/2021',
@@ -80,7 +82,8 @@ const meads = [
             honey: [],
             yeast: '',
             status: 'ongoing',
-            ABV: '~14%'
+            ABV: '~14%',
+            description: ''
         },
         primary:    {
             start: '',
@@ -115,7 +118,8 @@ const meads = [
             honey: [],
             yeast: '',
             status: 'ongoing',
-            ABV: '~14%'
+            ABV: '~14%',
+            description: ''
         },
         primary:    {
             start: '',
@@ -150,7 +154,8 @@ const meads = [
             honey: [],
             yeast: '',
             status: 'ongoing',
-            ABV: '~14%'
+            ABV: '~14%',
+            description: ''
         },
         primary:    {
             start: '',
@@ -185,7 +190,8 @@ const meads = [
             honey: [],
             yeast: '',
             status: 'ongoing',
-            ABV: '~14%'
+            ABV: '~14%',
+            description: ''
         },
         primary:    {
             start: '',
@@ -220,7 +226,8 @@ const meads = [
             honey: [],
             yeast: '',
             status: 'ongoing',
-            ABV: '~14%'
+            ABV: '~14%',
+            description: ''
         },
         primary:    {
             start: '',
@@ -255,7 +262,8 @@ const meads = [
             honey: [],
             yeast: '',
             status: 'ongoing',
-            ABV: '~14%'
+            ABV: '~14%',
+            description: ''
         },
         primary:    {
             start: '',
@@ -290,7 +298,8 @@ const meads = [
             honey: [],
             yeast: '',
             status: 'ongoing',
-            ABV: '~14%'
+            ABV: '~14%',
+            description: ''
         },
         primary:    {
             start: '',
@@ -325,7 +334,8 @@ const meads = [
             honey: [],
             yeast: '',
             status: 'ongoing',
-            ABV: '~14%'
+            ABV: '~14%',
+            description: ''
         },
         primary:    {
             start: '',
