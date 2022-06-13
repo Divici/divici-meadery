@@ -13,7 +13,7 @@ function App() {
       
       <Banner/> 
 
-      <BestOfList/>
+      {/* <BestOfList/> */}
       
     </div>
   );
