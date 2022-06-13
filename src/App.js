@@ -1,20 +1,22 @@
-import meads from './data/meads';
 import bottleImg from './assets/MeadBottle1.png';
-import Header from './components/Header';
-import Banner from './components/Banner';
-import BestOfList from './components/BestOfList';
+import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import { Navbar } from './components';
+
 
 
 function App() {
   return (
     <div className="App">
-      
+      <Navbar />
       <Header />
-      
-      <Banner/> 
-
-      {/* <BestOfList/> */}
-      
+      <AboutUs />
+      <SpecialMenu />
+      <Chef />
+      <Intro />
+      <Laurels />
+      <Gallery />
+      <FindUs />
+      <Footer />
     </div>
   );
 }
