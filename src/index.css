@@ -5,24 +5,25 @@
 @tailwind utilities;
 
 @layer components {
-    .section__padding {
-        padding: 4rem 6rem;
+    .section-padding {
+      @apply px-8 py-16 md:p-16 lg:px-24
     }
 
     .central {
         @apply flex justify-center items-center
     }
 
-    .app__wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        min-height: 100vh;
+    .app-wrapper {
+      @apply flex justify-between flex-col lg:flex-row items-center min-h-screen
     }
 
     .p-opensans {
-        @apply font-alt text-burgandy font-medium tracking-[0.04em] capitalize leading-7 text-base 
-      }
+        @apply font-alt text-burgandy font-medium tracking-[0.04em] capitalize leading-7 text-xs sm:text-sm md:text-base lg:text-lg xl:text-3xl xl:leading-[50px] 
+    }
+
+    .p-cormorant {
+      @apply font-base text-burgandy font-bold tracking-[0.04em] capitalize leading-[29.9px] text-[19px] sm:text-[21px] md:text-[23px] lg:text-3xl xl:text-4xl xl:leading-[67px]  
+    }
     
     /* ... */
 }

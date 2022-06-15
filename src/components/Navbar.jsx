@@ -24,7 +24,7 @@ const Navbar = () => {
       </div>
 
       <div className="sm:flex lg:hidden">
-        <GiHamburgerMenu fontSize={27} onClick={()=> setToggleMenu(true)} className="cursor-pointer text-burgandy" />
+        <GiHamburgerMenu fontSize={27} onClick={()=> setToggleMenu(true)} className="cursor-pointer text-black" />
 
         {toggleMenu && (
           <div className='central slide-bottom fixed top-0 left-0 w-full h-screen bg-cream transition ease-in-out duration-500 z-[5]'>
