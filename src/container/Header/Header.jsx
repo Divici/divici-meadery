@@ -3,7 +3,7 @@ import { SubHeading } from '../../components';
 import {images} from '../../constants';
 
 const Header = () => (
-  <div className='app-wrapper section-padding' id='home'>
+  <div className='app-wrapper section-padding bg-cream' id='home'>
     <div className='flex-1 flex w-full justify-center items-start flex-col'>
       <SubHeading />
     </div>

@@ -22,7 +22,7 @@
     }
 
     .p-cormorant {
-      @apply font-base text-burgandy font-bold tracking-[0.04em] capitalize leading-[29.9px] text-[19px] sm:text-[21px] md:text-[23px] lg:text-3xl xl:text-4xl xl:leading-[67px]  
+      @apply font-base text-black font-bold tracking-[0.04em] capitalize leading-[29.9px] text-[19px] sm:text-[21px] md:text-[23px] lg:text-3xl xl:text-4xl xl:leading-[67px]  
     }
     
     /* ... */
