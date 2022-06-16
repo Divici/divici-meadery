@@ -18,7 +18,8 @@ import award02 from '../assets/award02.png';
 import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import gallonMead from '../assets/WCC-Gallon.png';
-import divici from '../assets/DiviciMeaderyLogoB.png';
+import divici from '../assets/Divici-md-bg-none.png';
+import banner from '../assets/banner.png'
 // import sign from '../assets/sign.png';
 // import quote from '../assets/quote.png';
 // import gericht from '../assets/gericht.png';
@@ -45,6 +46,7 @@ export default {
   award05,
   gallonMead,
   divici,
+  banner,
   // sign,
   // quote,
   // gericht,

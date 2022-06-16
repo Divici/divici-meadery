@@ -9,7 +9,7 @@ module.exports = {
       md: '650px',
       ml: '850px',
       lg: '1150px',
-      xl: '2000px',
+      xl: '2750px',
     },
     extend: {
       fontFamily: {
@@ -19,6 +19,15 @@ module.exports = {
       colors: {
         'burgandy': '#6A040F',
         'cream': '#fff9e5',
+        'cream-dk': '#dad3c1',
+        'cream-br': '#f0dfbd',
+        'cream-md': '#f9f4e5',
+        'red-dk': '#781e1e',
+        'red-br': '#d41313',
+        'red-md': '#af2323',
+        'orange-dk': '#783f1e',
+        'orange-br': '#de5b10',
+        'orange-md': '#af5623',
         'golden': '#DCCA87',
         'black': '#0C0C0C',
         'crimson': '#F5EFDB',
