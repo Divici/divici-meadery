@@ -6,7 +6,7 @@
 
 @layer components {
     .section-padding {
-      @apply px-8 py-16 md:p-16 lg:px-24
+      @apply px-8 py-24 md:px-16 lg:px-24
     }
 
     .central {
@@ -14,15 +14,15 @@
     }
 
     .app-wrapper {
-      @apply flex justify-between flex-col lg:flex-row items-center min-h-screen
+      @apply flex justify-between flex-col lg:flex-row items-center 
     }
 
     .p-opensans {
-        @apply font-alt text-black font-medium tracking-[0.04em] capitalize leading-7 text-xs sm:text-sm md:text-base lg:text-lg xl:text-3xl xl:leading-[50px] 
+        @apply font-alt text-black font-medium tracking-[0.04em] leading-7 text-xs sm:text-sm md:text-base lg:text-lg xl:text-3xl xl:leading-[50px] 
     }
 
     .p-cormorant {
-      @apply font-base text-black font-bold tracking-[0.04em] capitalize leading-[29.9px] text-[19px] sm:text-[21px] md:text-[23px] lg:text-3xl xl:text-4xl xl:leading-[67px]  
+      @apply font-base text-black font-bold tracking-[0.04em] capitalize leading-[29.9px] text-[19px] sm:text-[21px] md:text-[23px] xl:text-4xl xl:leading-[67px]  
     }
 
     .custom-button {

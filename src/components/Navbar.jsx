@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className='w-full flex justify-between items-center bg-cream-md py-1 px-8'>
       <div className="flex justify-start items-center">
-        <img src={images.divici} alt='logo' className='py-4 w-[125px] md:w-[150px] lg:w-[175px] xl:w-[200px]'/>
+        <img src={images.divici} alt='logo' className='pt-4 w-[100px] md:w-[125px] lg:w-[150px] xl:w-[175px]'/>
       </div>
       <ul className='flex-1 sm:hidden lg:flex justify-center items-center'>
         <li className='p-opensans mx-4 hover:text-red-br'><a href='#home'>Home</a></li>
