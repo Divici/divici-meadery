@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SpecialMenu = () => (
-  <div>
+  <div className='h-screen bg-cream-md'>
     SpecialMenu
   </div>
 );
