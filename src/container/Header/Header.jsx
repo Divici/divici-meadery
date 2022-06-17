@@ -19,6 +19,7 @@ const Header = () => (
     <div className='ml-8 mt-20 lg:mt-0 flex-1 w-full flex justify-center items-center'>
       <img src={images.banner} alt='header' />
     </div>
+    
   </div>
 );
 
