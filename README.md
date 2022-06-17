@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+## Divici's Meadery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An application used to track what Meads I'm currently working on as well as leave some tips on how to recreate my recipes. Built with React, JavaScript, and CSS.
 
-## Available Scripts
+## Project Status
+This project is currently in development. Users can view a list of the different meads but can not yet view all details on selected mead. Will implement Tailwind CSS and redux to rebuild.
 
-In the project directory, you can run:
+## Project Screen Shot(s)  
 
-### `npm start`
+<img src="https://github.com/Divici/divici-meadery/blob/88ca0a27b849f66f47ae5bda6ac35c45ed6cd868/divici-mead-ss.PNG" width="auto">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation and Setup Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-### `npm test`
+Installation:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm install`  
 
-### `npm run build`
+To Start Server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm start`  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To Visit App:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`localhost:3000`  
 
-### `npm run eject`
+## Reflection
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This was a side project built during 3rd month at BloomTech. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Originally I wanted to build an application that listed the wide range of experimental meads as well as refined meads I have created over the last few years. It is also just a place to track what I'm currently working on as well as leave some tips on how to recreate my recipes. I started this process by using the `create-react-app` boilerplate.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+It is still a work in progress, and I would eventually like to rebuild it with `React Native` so that I can use it as both an app and web app.
