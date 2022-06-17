@@ -1,4 +1,3 @@
-import bottleImg from './assets/MeadBottle1.png';
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
 import { Navbar } from './components';
 
@@ -10,13 +9,13 @@ function App() {
       <Navbar />
       <Header />
       <AboutUs />
-      <SpecialMenu />
+      {/* <SpecialMenu />
       <Chef />
       <Intro />
       <Laurels />
       <Gallery />
       <FindUs />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

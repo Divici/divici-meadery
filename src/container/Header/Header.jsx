@@ -13,7 +13,7 @@ const Header = () => (
           Taste the nectar of the Gods
       </h1>
       <p className='p-opensans my-8'>Welcome to Divici's online mead resource. Here you will be able to find the wide range of experimental meads as well as refined meads I have created over the last few years. It is also just a place to track what I'm currently working on as well as leave some tips on how to recreate my recipes.</p>
-      <button type="button" className="custom-button hover:bg-red-br">Explore Meads</button>
+      <button type="button" className="custom-button bg-red-md text-white hover:bg-red-br">Explore Meads</button>
     </div>
 
     <div className='ml-8 mt-20 lg:mt-0 flex-1 w-full flex justify-center items-center'>
