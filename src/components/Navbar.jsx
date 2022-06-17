@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="flex justify-start items-center">
         <img src={images.divici} alt='logo' className='pt-4 w-[100px] md:w-[125px] lg:w-[150px] xl:w-[175px]'/>
       </div>
-      <ul className='flex-1 sm:hidden lg:flex justify-center items-center'>
+      <ul className='flex-1 hidden lg:flex justify-center items-center'>
         <li className='p-opensans mx-4 hover:text-red-br'><a href='#home'>Home</a></li>
         <li className='p-opensans mx-4 hover:text-red-br'><a href='#about'>About</a></li>
         <li className='p-opensans mx-4 hover:text-red-br'><a href='#meads'>My Meads</a></li>
@@ -27,7 +27,7 @@ const Navbar = () => {
         <GiHamburgerMenu fontSize={27} onClick={()=> setToggleMenu(true)} className="cursor-pointer text-black hover:text-red-md" />
 
         {toggleMenu && (
-          <div className='central slide-bottom fixed top-0 left-0 w-full h-screen bg-cream-md transition ease-in-out duration-500 z-[5]'>
+          <div className='central slide-bottom fixed top-0 left-0 w-full h-screen bg-cream-md z-[5]'>
             <MdOutlineRestaurantMenu fontSize={27} className='text-red-md absolute top-5 right-5 cursor-pointer' onClick={() => setToggleMenu(false)} />
             <ul className='flex-1 flex justify-center flex-col items-center'>
               <li className='font-base text-center text-[2rem] m-8 hover:text-red-br'><a href='#home'>Home</a></li>
