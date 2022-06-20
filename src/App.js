@@ -1,4 +1,5 @@
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu, Home } from './container';
+import { Route, Routes } from "react-router-dom";
 import { Navbar } from './components';
 
 
@@ -6,16 +7,18 @@ import { Navbar } from './components';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Header />
-      <AboutUs />
-      {/* <SpecialMenu />
-      <Chef />
-      <Intro />
-      <Laurels />
-      <Gallery />
-      <FindUs />
-      <Footer /> */}
+      <Routes>
+
+        <Route path='/*' element={<Home />} />
+        {/* <SpecialMenu />
+        <Chef />
+        <Intro />
+        <Laurels />
+        <Gallery />
+        <FindUs />
+        <Footer /> */}
+        
+      </Routes>
     </div>
   );
 }
