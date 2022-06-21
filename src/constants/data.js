@@ -28,34 +28,6 @@ const wines = [
   },
 ];
 
-const cocktails = [
-  {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
-  },
-  {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
-  },
-  {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
-  },
-  {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
-  },
-];
-
 const awards = [
   {
     imgUrl: images.award02,
@@ -82,9 +54,10 @@ const awards = [
 const meads = [
   {
       id: 0,
-      image: images.gallonMead,
+      image: images.meadBottle2,
       info: {
           name: 'White Caramel Mead',
+          type: ['cocoa'],
           size: '1 Gallon',
           honey: ['Clover Honey'],
           yeast: 'D-47',
@@ -118,9 +91,10 @@ const meads = [
 
   {
       id: 1,
-      image: images.gallonMead,
+      image: images.meadBottle6,
       info: {
           name: 'Value Apple Bochet',
+          type: ['bochet', 'metheglin', 'cyser'],
           size: '5 gallons',
           honey: ['Bocheted Pure Honey'],
           yeast: 'D-47',
@@ -153,4 +127,4 @@ const meads = [
   },
 ];
 
-export default { wines, meads, cocktails, awards };
+export default { wines, meads, awards };

@@ -12,18 +12,14 @@ const Navbar = () => {
       <div className="flex justify-start items-center">
         <img src={images.divici} alt='logo' className='pt-4 w-[100px] md:w-[125px] lg:w-[150px] xl:w-[175px]'/>
       </div>
-      <ul className='flex-1 hidden lg:flex justify-center items-center'>
+      <ul className='flex-1 hidden md:flex justify-end items-center'>
         <li className='p-opensans mx-4 hover:text-red-br'><a href='#home'>Home</a></li>
         <li className='p-opensans mx-4 hover:text-red-br'><a href='#about'>About</a></li>
-        <li className='p-opensans mx-4 hover:text-red-br'><a href='#meads'>My Meads</a></li>
-        <li className='p-opensans mx-4 hover:text-red-br'><a href='#awards'>Awards</a></li>
+        <li className='p-opensans mx-4 hover:text-red-br'><a href='#meads'>Meads</a></li>
         <li className='p-opensans mx-4 hover:text-red-br'><a href='#contact'>Contact</a></li>
       </ul>
-      <div className="flex items-center">
-        <a href="#login" className='p-opensans sm:hidden md:flex mx-4 hover:text-red-700 border-b-2 border-b-transparent hover:border-b-red-700'>Login / Register</a>
-      </div>
 
-      <div className="sm:flex lg:hidden">
+      <div className="sm:flex md:hidden">
         <GiHamburgerMenu fontSize={27} onClick={()=> setToggleMenu(true)} className="cursor-pointer text-black hover:text-red-md" />
 
         {toggleMenu && (
@@ -32,8 +28,7 @@ const Navbar = () => {
             <ul className='flex-1 flex justify-center flex-col items-center'>
               <li className='font-base text-center text-[2rem] m-8 hover:text-red-br'><a href='#home'>Home</a></li>
               <li className='font-base text-center text-[2rem] m-8 hover:text-red-br'><a href='#about'>About</a></li>
-              <li className='font-base text-center text-[2rem] m-8 hover:text-red-br'><a href='#meads'>My Meads</a></li>
-              <li className='font-base text-center text-[2rem] m-8 hover:text-red-br'><a href='#awards'>Awards</a></li>
+              <li className='font-base text-center text-[2rem] m-8 hover:text-red-br'><a href='#meads'>Meads</a></li>
               <li className='font-base text-center text-[2rem] m-8 hover:text-red-br'><a href='#contact'>Contact</a></li>
             </ul>
           </div>
