@@ -27,10 +27,10 @@ const Navbar = () => {
           <div className='central slide-bottom fixed top-0 left-0 w-full h-screen bg-cream-md z-[5]'>
             <MdOutlineRestaurantMenu fontSize={27} className='text-red-md absolute top-5 right-5 cursor-pointer' onClick={() => setToggleMenu(false)} />
             <ul className='flex-1 flex justify-center flex-col items-center'>
-              <Link to='/' className='font-base text-center text-[2rem] m-8 hover:text-red-br'>Home</Link>
-              <Link to='/' className='font-base text-center text-[2rem] m-8 hover:text-red-br'>About</Link>
-              <Link to='/meads' className='font-base text-center text-[2rem] m-8 hover:text-red-br'>Meads</Link>
-              <Link to='/' className='font-base text-center text-[2rem] m-8 hover:text-red-br'>Contact</Link>
+              <Link to='/' className='font-base text-center text-[2rem] m-8 hover:text-red-br' onClick={() => setToggleMenu(false)}>Home</Link>
+              <Link to='/' className='font-base text-center text-[2rem] m-8 hover:text-red-br' onClick={() => setToggleMenu(false)}>About</Link>
+              <Link to='/meads' className='font-base text-center text-[2rem] m-8 hover:text-red-br' onClick={() => setToggleMenu(false)}>Meads</Link>
+              <Link to='/' className='font-base text-center text-[2rem] m-8 hover:text-red-br' onClick={() => setToggleMenu(false)}>Contact</Link>
             </ul>
           </div>
         )}

@@ -1,4 +1,4 @@
-import React from 'react'
+import {images} from '../constants';
 
 const Mead = ({mead}) => {
   return (
@@ -7,9 +7,10 @@ const Mead = ({mead}) => {
         <div className='h-80 flex items-center justify-between'>
             <img src={mead.image} alt='mead' className='p-2 h-full'/>
             <div className='px-8'>
-                <h2 className='font-alt font-medium tracking-[0.04em] text-base lg:text-lg xl:text-3xl'>{mead.info.name}</h2>
+                <h2 className='font-alt font-semibold tracking-[0.04em] text-base lg:text-lg xl:text-3xl'>{mead.info.name}</h2>
                 <p className='capitalize mt-2'>{mead.info.type[0]}</p>
             </div>
+            <img src={images.bottle} alt='bottle' className='h-4 absolute bottom-8 right-8 opacity-70' />
         </div>
     </div>
   )

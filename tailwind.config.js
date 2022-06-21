@@ -35,9 +35,6 @@ module.exports = {
         'grey': '#AAAAAA',
         'white': '#FFFFFF',
       },
-      backgroundImage: {
-        'split-cream-white': "linear-gradient(to top, #f0dfbd 60% , white 40%);"
-      },
     },
   },
   plugins: [],
