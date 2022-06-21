@@ -3,7 +3,13 @@ import {images} from '../constants';
 
 const Mead = ({mead}) => {
   return (
-    <motion.div layout className='m-4 w-[300px] relative'>
+    <motion.div 
+        animate={{opacity:1}}
+        initial={{opacity:0}}
+        exit={{opacity:0}}
+        layout 
+        className='m-4 w-[300px] relative'
+    >
         <div className='h-56 w-full bg-gradient-to-r from-cream-br via-cream-dk to-cream-br absolute bottom-0 -z-10 rounded-xl'></div>
         <div className='h-80 flex items-center justify-between'>
             <img src={mead.image} alt='mead' className='p-2 h-full'/>
