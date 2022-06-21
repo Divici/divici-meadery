@@ -3,6 +3,7 @@ import D from '../assets/D.png';
 import hexagons from '../assets/hexagons.svg';
 import meadBottle from '../assets/mead-bottle.png';
 import meadBottle2 from '../assets/Mead-Bottle2.png';
+import meadBottle1 from '../assets/Mead-Bottle1.png';
 import meadBottle3 from '../assets/Mead-Bottle3.png';
 import meadBottle4 from '../assets/Mead-Bottle4.png';
 import meadBottle5 from '../assets/Mead-Bottle5.png';
@@ -23,6 +24,7 @@ export default {
   D,
   hexagons,
   meadBottle,
+  meadBottle1,
   meadBottle2,
   meadBottle3,
   meadBottle4,

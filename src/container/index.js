@@ -8,6 +8,7 @@ import Intro from './Intro/Intro';
 import Laurels from './Laurels/Laurels';
 import SpecialMenu from './Menu/SpecialMenu';
 import Home from './Home/Home';
+import Meads from './Meads/Meads';
 
 export {
   AboutUs,
@@ -20,4 +21,5 @@ export {
   Laurels,
   SpecialMenu,
   Home,
+  Meads,
 };
