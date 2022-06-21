@@ -7,7 +7,7 @@ This project is currently in development. Users can view a list of the different
 
 ## Project Screen Shot(s)  
 
-<img src="https://github.com/Divici/divici-meadery/blob/88ca0a27b849f66f47ae5bda6ac35c45ed6cd868/divici-mead-ss.PNG" width="auto">
+<img src="https://github.com/Divici/divici-meadery/blob/main/divici-mead-ss.PNG" width="auto">
 
 ## Installation and Setup Instructions
 
