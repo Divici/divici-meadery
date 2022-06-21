@@ -13,16 +13,16 @@ const Filter = ({setActive, active, setFiltered, meadList}) => {
 
   return (
     <div className='central flex-wrap my-4'>
-        <button onClick={() => setActive('All')} className='custom-button bg-red-dk text-white hover:bg-red-md active:bg-red-br m-2'>All</button>
-        <button onClick={() => setActive('acerglyn')} className='custom-button bg-red-dk text-white hover:bg-red-md active:bg-red-br m-2'>Acerglyn</button>
-        <button onClick={() => setActive('bochet')} className='custom-button bg-red-dk text-white hover:bg-red-md active:bg-red-br m-2'>Bochet</button>
-        <button onClick={() => setActive('cyser')} className='custom-button bg-red-dk text-white hover:bg-red-md active:bg-red-br m-2'>Cyser</button>
-        <button onClick={() => setActive('hydromel')} className='custom-button bg-red-dk text-white hover:bg-red-md active:bg-red-br m-2'>Hydromel</button>
-        <button onClick={() => setActive('metheglin')} className='custom-button bg-red-dk text-white hover:bg-red-md active:bg-red-br m-2'>Metheglin</button>
-        <button onClick={() => setActive('pyment')} className='custom-button bg-red-dk text-white hover:bg-red-md active:bg-red-br m-2'>Pyment</button>
-        <button onClick={() => setActive('sack')} className='custom-button bg-red-dk text-white hover:bg-red-md active:bg-red-br m-2'>Sack Mead</button>
-        <button onClick={() => setActive('cocoa')} className='custom-button bg-red-dk text-white hover:bg-red-md active:bg-red-br m-2'>Cocoa Meads</button>
-        <button onClick={() => setActive('melomel')} className='custom-button bg-red-dk text-white hover:bg-red-md active:bg-red-br m-2'>Melomel</button>
+        <button onClick={() => setActive('All')} className={`custom-button text-white hover:bg-red-md m-2 ${active === 'All' ? 'bg-red-br' : 'bg-red-dk' }`}>All</button>
+        <button onClick={() => setActive('acerglyn')} className={`custom-button text-white hover:bg-red-md m-2 ${active === 'acerglyn' ? 'bg-red-br' : 'bg-red-dk' }`}>Acerglyn</button>
+        <button onClick={() => setActive('bochet')} className={`custom-button text-white hover:bg-red-md m-2 ${active === 'bochet' ? 'bg-red-br' : 'bg-red-dk' }`}>Bochet</button>
+        <button onClick={() => setActive('cyser')} className={`custom-button text-white hover:bg-red-md m-2 ${active === 'cyser' ? 'bg-red-br' : 'bg-red-dk' }`}>Cyser</button>
+        <button onClick={() => setActive('hydromel')} className={`custom-button text-white hover:bg-red-md m-2 ${active === 'hydromel' ? 'bg-red-br' : 'bg-red-dk' }`}>Hydromel</button>
+        <button onClick={() => setActive('metheglin')} className={`custom-button text-white hover:bg-red-md m-2 ${active === 'metheglin' ? 'bg-red-br' : 'bg-red-dk' }`}>Metheglin</button>
+        <button onClick={() => setActive('pyment')} className={`custom-button text-white hover:bg-red-md m-2 ${active === 'pyment' ? 'bg-red-br' : 'bg-red-dk' }`}>Pyment</button>
+        <button onClick={() => setActive('sack')} className={`custom-button text-white hover:bg-red-md m-2 ${active === 'sack' ? 'bg-red-br' : 'bg-red-dk' }`}>Sack Mead</button>
+        <button onClick={() => setActive('cocoa')} className={`custom-button text-white hover:bg-red-md m-2 ${active === 'cocoa' ? 'bg-red-br' : 'bg-red-dk' }`}>Cocoa Meads</button>
+        <button onClick={() => setActive('melomel')} className={`custom-button text-white hover:bg-red-md m-2 ${active === 'melomel' ? 'bg-red-br' : 'bg-red-dk' }`}>Melomel</button>
     </div>
   )
 }
