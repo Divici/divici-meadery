@@ -14,6 +14,7 @@ const Filter = ({setActive, active, setFiltered, meadList}) => {
   return (
     <div className='central flex-wrap my-4'>
         <button onClick={() => setActive('All')} className={`custom-button text-white hover:bg-red-md m-2 ${active === 'All' ? 'bg-red-br' : 'bg-red-dk' }`}>All</button>
+        <button onClick={() => setActive('traditional')} className={`custom-button text-white hover:bg-red-md m-2 ${active === 'traditional' ? 'bg-red-br' : 'bg-red-dk' }`}>Traditional</button>
         <button onClick={() => setActive('acerglyn')} className={`custom-button text-white hover:bg-red-md m-2 ${active === 'acerglyn' ? 'bg-red-br' : 'bg-red-dk' }`}>Acerglyn</button>
         <button onClick={() => setActive('bochet')} className={`custom-button text-white hover:bg-red-md m-2 ${active === 'bochet' ? 'bg-red-br' : 'bg-red-dk' }`}>Bochet</button>
         <button onClick={() => setActive('cyser')} className={`custom-button text-white hover:bg-red-md m-2 ${active === 'cyser' ? 'bg-red-br' : 'bg-red-dk' }`}>Cyser</button>

@@ -57,7 +57,7 @@ const meads = [
       image: images.meadBottle2,
       info: {
           name: 'White Caramel Mead',
-          type: ['cocoa'],
+          type: ['cocoa', 'metheglin'],
           size: '1 Gallon',
           honey: ['Clover Honey'],
           yeast: 'D-47',
@@ -167,7 +167,7 @@ const meads = [
     image: images.meadBottle5,
     info: {
         name: 'Maple POG',
-        type: ['metheglin', 'acerglyn'],
+        type: ['metheglin', 'acerglyn', 'melomel'],
         size: '1 gallon',
         honey: ['Kirkland Signature Raw Honey', 'Pure Maple'],
         yeast: 'D-47',
@@ -203,7 +203,7 @@ const meads = [
     image: images.meadBottle4,
     info: {
         name: 'Berry Sweet',
-        type: ['bochet', 'metheglin', 'cyser'],
+        type: ['pyment', 'sack', 'melomel'],
         size: '1 gallon',
         honey: ['Bocheted Pure Honey'],
         yeast: 'D-47',
@@ -275,7 +275,7 @@ const meads = [
     image: images.meadBottle6,
     info: {
         name: 'Blood of my Orange',
-        type: ['bochet', 'metheglin', 'cyser'],
+        type: ['melomel', 'metheglin'],
         size: '1 gallon',
         honey: ['Bocheted Pure Honey'],
         yeast: 'D-47',
@@ -311,7 +311,7 @@ const meads = [
     image: images.meadBottle6,
     info: {
         name: 'In POG We Trust',
-        type: ['bochet', 'metheglin', 'cyser'],
+        type: ['melomel'],
         size: '1 gallon',
         honey: ['Bocheted Pure Honey'],
         yeast: 'D-47',
@@ -348,13 +348,13 @@ const meads = [
     image: images.meadBottle2,
     info: {
         name: 'Where No Mango',
-        type: ['bochet', 'metheglin', 'cyser'],
+        type: ['melomel'],
         size: '1 gallon',
         honey: ['Bocheted Pure Honey'],
         yeast: 'D-47',
         status: 'Aging',
         ABV: '14%',
-        description: 'This mead reminds you of a strong whiskey on a cold night topped off with a nice warm honey. Enjoy the subtle hints of vanilla in every sip.'
+        description: 'This Semi-Sweet, medium-bodied Mead has hints of mango and a smooth finish.'
     },
     primary:    {
         start: '09/08/2021',
@@ -385,13 +385,13 @@ const meads = [
     image: images.meadBottle1,
     info: {
         name: 'Tupelo Woods',
-        type: ['bochet', 'metheglin', 'cyser'],
+        type: ['traditional', 'hydromel'],
         size: '1 gallon',
         honey: ['Bocheted Pure Honey'],
         yeast: 'D-47',
         status: 'Aging',
         ABV: '14%',
-        description: 'This mead reminds you of a strong whiskey on a cold night topped off with a nice warm honey. Enjoy the subtle hints of vanilla in every sip.'
+        description: 'A lighter style mead with strong honey and floral aromas. It feels like sipping on honey and water with your back resting on a tree deep in the woods.'
     },
     primary:    {
         start: '09/08/2021',
@@ -422,7 +422,7 @@ const meads = [
     image: images.meadBottle6,
     info: {
         name: 'Prème Bochèt',
-        type: ['bochet'],
+        type: ['bochet', 'metheglin'],
         size: '1 gallon',
         honey: ['Bocheted Pure Honey'],
         yeast: 'D-47',

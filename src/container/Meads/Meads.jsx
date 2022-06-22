@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Mead from '../../components/Mead';
+import MeadCard from '../../components/MeadCard';
 import Filter from '../../components/Filter';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -18,12 +18,12 @@ const Meads = () => {
 
   return (
     <div className=''>
-      <h1 className='font-base text-center py-8 text-2xl font-bold uppercase shadow-md'>All Meads</h1>
+      <h1 className='font-base text-center py-8 text-2xl font-bold uppercase shadow-md'>{active} Meads</h1>
       <Filter meadList={meadList} setFiltered={setFiltered} active={active} setActive={setActive} />
       <motion.div layout className='flex justify-center flex-wrap py-4'>
         <AnimatePresence> 
           {filtered.map(mead=>{
-            return <Mead key={mead.id} mead={mead}/>
+            return <MeadCard key={mead.id} mead={mead}/>
           })}
         </AnimatePresence>
       </motion.div>
