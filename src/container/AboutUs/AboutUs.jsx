@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import {images} from '../../constants'
 import Wave from 'react-wavify';
 
@@ -35,7 +35,7 @@ const AboutUs = () => (
           <h1 className="font-base text-cream-br text-6xl leading-[83.2px] tracking-[0.04em] capitalize">History</h1>
           <img src={images.bottleC} alt="about_bottle" className="w-11 rotate-180" />
           <p className="p-opensans text-white my-8">I made my first meads in early 2020. I treated it like art and produced 2 of my best meads so far. Since then I have completed 10+ different meads with many more experiments on the way.</p>
-          <button type="button" className="custom-button bg-cream-br text-black">See More</button>
+          <Link to='/meads'><button type="button" className="custom-button bg-cream-br text-black">See More</button></Link>
         </div>
       </div>
     </div>
