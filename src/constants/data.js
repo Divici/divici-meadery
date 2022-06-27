@@ -391,7 +391,7 @@ const meads = [
         yeast: 'D-47',
         status: 'Aging',
         ABV: '14%',
-        description: 'A lighter style mead with strong honey and floral aromas. It feels like sipping on honey and water with your back resting on a tree deep in the woods.'
+        description: 'A lighter style mead with strong honey and floral aromas. It feels like sipping on honey and water with your back resting against a tree deep in the woods.'
     },
     primary:    {
         start: '09/08/2021',
