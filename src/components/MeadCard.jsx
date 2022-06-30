@@ -21,7 +21,7 @@ const MeadCard = ({mead}) => {
         layout 
         className='m-4 w-[300px] hover:drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)] relative'
     >
-        <div className='h-56 w-full absolute bottom-0 -z-10 rounded-xl bg-gradient-to-r from-cream-br via-cream-dk to-cream-br'></div>
+        <div className='h-56 w-full absolute bottom-0 -z-10 rounded-xl bg-gradient-to-r from-cream-br/20 via-cream-md to-cream-br'></div>
         <div className='h-80 flex items-center justify-between'>
             <img src={mead.image} alt='mead' className='p-2 h-full cursor-pointer' onClick={handleClick}/>
             <div onClick={handleClick} className='px-8 cursor-pointer'>

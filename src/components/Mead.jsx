@@ -31,9 +31,9 @@ const Mead = () => {
                     </div>
                     
                     {/* ==================Right Content======================= */}
-                    <div className="pb-4 pt-2 md:pt-16 ml:pt-24 lg:pt-32 md:w-8/12 font-alt">
+                    <div className="pb-4 pt-2 md:pt-16 ml:pt-24 lg:pt-32 md:w-8/12 font-alt bg-gradient-to-b md:bg-gradient-to-r from-white/0 to-cream-md/75 rounded-xl p-2">
                         
-                        <p className='w-full md:w-4/5 mx-auto px-2 py-4 border-double border-b-8 border-cream-dk font-normal text-center md:text-left'>{mead[0].info.description}</p>
+                        <p className='w-full md:w-4/5 mx-auto px-2 py-4 border-double border-b-8 border-cream-dk font-medium md:font-normal text-center md:text-left'>{mead[0].info.description}</p>
                         {/* <h3 className='w-full md:w-4/5 mx-auto font-medium mb-10 mt-16 text-red-dk'>Honey Varietals</h3>
                         <p className='w-full md:w-4/5 mx-auto px-2'></p> */}
 
