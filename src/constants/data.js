@@ -136,12 +136,12 @@ const meads = [
         yeast: 'D-47',
         status: 'Aging',
         ABV: '14%',
-        description: 'This mead reminds you of a strong whiskey on a cold night topped off with a nice warm honey. Enjoy the subtle hints of vanilla in every sip.'
+        description: 'Some pure maple syrup. Some pure delicious honey. A bit of spices. And you get a well balanced, semi-sweet acerglyn, good for dessert.'
     },
     primary:    {
         start: '09/08/2021',
         end: '09/17/2021',
-        gravityStart: 1.105,
+        gravityStart: 1.096,
         gravityEnd: 1.000,
         ingredients: ["10 lb Pure N Simple Honey (Bocheted)", "4.5 gallons Great Value Apple Juice", "0.35 oz Light Toast Oak Chips", '3 Cinnamon Sticks', "1 tsp Vanilla Extract", "10g D-47 Lalvin Yeast"],
         details: 'Began by boiling the honey in 2 batches till the honey reached a dark brown. Added some apple juice to the pot slowly, so that it could be mixed with the honey before it hardened. Added mix to the remainder of the apple juice in a 5 gallon plastic fermentation bucket. Threw in the cinnamon sticks, oak chips and vanilla extract and started fermentation with 10g of D-47 yeast placed on top of must. 1 tsp of yeast nutrient and 1 tsp of yeast energizer put in at start and stirred. Used a staggered approaching, adding 1 tsp of nutrients and 1/2 tsp of energizer every 2 days for 3 more doses.'
@@ -387,14 +387,14 @@ const meads = [
         name: 'Tupelo Woods',
         type: ['traditional', 'hydromel'],
         size: '1 gallon',
-        honey: ['Bocheted Pure Honey'],
+        honey: ['Tupelo', 'Sourwood'],
         yeast: 'D-47',
         status: 'Aging',
         ABV: '14%',
         description: 'A lighter style mead with strong honey and floral aromas. It feels like sipping on honey and water with your back resting against a tree deep in the woods.'
     },
     primary:    {
-        start: '09/08/2021',
+        start: '09/05/2021',
         end: '09/17/2021',
         gravityStart: 1.105,
         gravityEnd: 1.000,
@@ -411,7 +411,7 @@ const meads = [
     },
     aging: {
         bottle: 'reracked and filtered into 5 separate 1 gallon glass carboys',
-        date: '09/27/2021',
+        date: '10/17/2021',
         age: 'Bulk Aging',
         thoughts: 'Very strong with a whiskey with honey taste. Good to sip on during a cold day. Should get better with age.'
     }
