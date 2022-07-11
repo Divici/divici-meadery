@@ -46,7 +46,7 @@ const Mead = () => {
                     <div className="pb-4 pt-2 md:pt-16 ml:pt-24 lg:pt-32 md:w-8/12 font-alt bg-gradient-to-b md:bg-gradient-to-r from-white/0 to-cream-md/75 rounded-xl p-2">
                         <p className='w-full md:w-4/5 mx-auto px-2 py-4 border-double border-b-8 border-cream-dk font-medium md:font-normal text-center md:text-left'>{mead[0].info.description}</p>
 
-                        <div className='mt-4 mb-6 md:mb-8 flex justify-between flex-wrap w-full md:w-4/5 mx-auto text-center md:text-left'>
+                        <div className='mt-4 mb-6 md:mb-12 flex justify-between flex-wrap w-full md:w-4/5 mx-auto text-center md:text-left'>
                             <div className='my-2 w-full font-alt'>
                                 <h4 className='text-xs text-red-md'>Honey Varietals</h4>
                                 <p className='font-semibold'>{mead[0].info.honey.join(', ')}</p>

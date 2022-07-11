@@ -52,7 +52,47 @@ const awards = [
 ];
 
 const meads = [
-  {
+    {
+        id: 9,
+        image: images.meadBottle1,
+        info: {
+            name: 'Tupelo Woods',
+            award: 3,
+            competition: 'Mead Stampede 2022',
+            compCategory: 'Semi-Sweet Traditionals',
+            type: ['traditional'],
+            size: '1 gallon',
+            honey: ['Tupelo', 'Sourwood'],
+            yeast: 'D-47',
+            status: 'Aging',
+            ABV: '14%',
+            description: 'A lighter style mead with strong honey and floral aromas. It feels like sipping on honey and water with your back resting against a tree deep in the woods.'
+        },
+        primary:    {
+            start: '09/05/2021',
+            end: '09/17/2021',
+            gravityStart: 1.105,
+            gravityEnd: 1.000,
+            ingredients: ["10 lb Pure N Simple Honey (Bocheted)", "4.5 gallons Great Value Apple Juice", "0.35 oz Light Toast Oak Chips", '3 Cinnamon Sticks', "1 tsp Vanilla Extract", "10g D-47 Lalvin Yeast"],
+            details: 'Began by boiling the honey in 2 batches till the honey reached a dark brown. Added some apple juice to the pot slowly, so that it could be mixed with the honey before it hardened. Added mix to the remainder of the apple juice in a 5 gallon plastic fermentation bucket. Threw in the cinnamon sticks, oak chips and vanilla extract and started fermentation with 10g of D-47 yeast placed on top of must. 1 tsp of yeast nutrient and 1 tsp of yeast energizer put in at start and stirred. Used a staggered approaching, adding 1 tsp of nutrients and 1/2 tsp of energizer every 2 days for 3 more doses.'
+        },
+        secondary: {
+            start: '09/17/2021',
+            end: '09/27/2021',
+            gravityStart: 'Unknown',
+            gravityEnd: 1.004,
+            ingredients: ["12 oz Bocheted Pure Honey"],
+            details: 'Reracked into another 5 gallon bucket and removed oak chips and cinnamon sticks. Added 12 oz of bocheted honey and let continue fermentation. '
+        },
+        aging: {
+            bottle: 'reracked and filtered into 5 separate 1 gallon glass carboys',
+            date: '10/17/2021',
+            age: 'Bulk Aging',
+            thoughts: 'Very strong with a whiskey with honey taste. Good to sip on during a cold day. Should get better with age.'
+        }
+    },
+
+    {
       id: 0,
       image: images.meadBottle2,
       info: {
@@ -381,46 +421,6 @@ const meads = [
   },
 
   {
-    id: 9,
-    image: images.meadBottle1,
-    info: {
-        name: 'Tupelo Woods',
-        award: 3,
-        competition: 'Mead Stampede 2022',
-        compCategory: 'Semi-Sweet Traditionals',
-        type: ['traditional', 'hydromel'],
-        size: '1 gallon',
-        honey: ['Tupelo', 'Sourwood'],
-        yeast: 'D-47',
-        status: 'Aging',
-        ABV: '14%',
-        description: 'A lighter style mead with strong honey and floral aromas. It feels like sipping on honey and water with your back resting against a tree deep in the woods.'
-    },
-    primary:    {
-        start: '09/05/2021',
-        end: '09/17/2021',
-        gravityStart: 1.105,
-        gravityEnd: 1.000,
-        ingredients: ["10 lb Pure N Simple Honey (Bocheted)", "4.5 gallons Great Value Apple Juice", "0.35 oz Light Toast Oak Chips", '3 Cinnamon Sticks', "1 tsp Vanilla Extract", "10g D-47 Lalvin Yeast"],
-        details: 'Began by boiling the honey in 2 batches till the honey reached a dark brown. Added some apple juice to the pot slowly, so that it could be mixed with the honey before it hardened. Added mix to the remainder of the apple juice in a 5 gallon plastic fermentation bucket. Threw in the cinnamon sticks, oak chips and vanilla extract and started fermentation with 10g of D-47 yeast placed on top of must. 1 tsp of yeast nutrient and 1 tsp of yeast energizer put in at start and stirred. Used a staggered approaching, adding 1 tsp of nutrients and 1/2 tsp of energizer every 2 days for 3 more doses.'
-    },
-    secondary: {
-        start: '09/17/2021',
-        end: '09/27/2021',
-        gravityStart: 'Unknown',
-        gravityEnd: 1.004,
-        ingredients: ["12 oz Bocheted Pure Honey"],
-        details: 'Reracked into another 5 gallon bucket and removed oak chips and cinnamon sticks. Added 12 oz of bocheted honey and let continue fermentation. '
-    },
-    aging: {
-        bottle: 'reracked and filtered into 5 separate 1 gallon glass carboys',
-        date: '10/17/2021',
-        age: 'Bulk Aging',
-        thoughts: 'Very strong with a whiskey with honey taste. Good to sip on during a cold day. Should get better with age.'
-    }
-  },
-
-  {
     id: 10,
     image: images.meadBottle6,
     info: {
@@ -447,6 +447,43 @@ const meads = [
         gravityStart: 'Unknown',
         gravityEnd: 1.004,
         ingredients: ["12 oz Bocheted Pure Honey"],
+        details: 'Reracked into another 5 gallon bucket and removed oak chips and cinnamon sticks. Added 12 oz of bocheted honey and let continue fermentation. '
+    },
+    aging: {
+        bottle: 'reracked and filtered into 5 separate 1 gallon glass carboys',
+        date: '09/27/2021',
+        age: 'Bulk Aging',
+        thoughts: 'Very strong with a whiskey with honey taste. Good to sip on during a cold day. Should get better with age.'
+    }
+  },
+
+  {
+    id: 11,
+    image: images.meadBottle4,
+    info: {
+        name: 'Berry Easy Day',
+        type: ['session', 'metheglin'],
+        size: '1 gallon',
+        honey: ['Clover', 'Coffee Blossom'],
+        yeast: '71-B',
+        status: 'Brewing',
+        ABV: '5%',
+        description: 'This mead reminds you of a strong whiskey on a cold night topped off with a nice warm honey. Enjoy the subtle hints of vanilla in every sip.'
+    },
+    primary:    {
+        start: '09/08/2021',
+        end: '09/17/2021',
+        gravityStart: 1.036,
+        gravityEnd: 1.000,
+        ingredients: ["16 oz Kirkland Signature Raw Honey", "3 Tea bags Wild Berry Zinger", "1/2 gram Wine Tannin", "1g 71-B Lalvin Yeast"],
+        details: 'Began by boiling the honey in 2 batches till the honey reached a dark brown. Added some apple juice to the pot slowly, so that it could be mixed with the honey before it hardened. Added mix to the remainder of the apple juice in a 5 gallon plastic fermentation bucket. Threw in the cinnamon sticks, oak chips and vanilla extract and started fermentation with 10g of D-47 yeast placed on top of must. 1 tsp of yeast nutrient and 1 tsp of yeast energizer put in at start and stirred. Used a staggered approaching, adding 1 tsp of nutrients and 1/2 tsp of energizer every 2 days for 3 more doses.'
+    },
+    secondary: {
+        start: '09/17/2021',
+        end: '09/27/2021',
+        gravityStart: 'Unknown',
+        gravityEnd: 1.004,
+        ingredients: ["1 oz Kirkland Signature Raw Honey", "32 oz Strawberries", "1 oz Amorreti Boysenberry"],
         details: 'Reracked into another 5 gallon bucket and removed oak chips and cinnamon sticks. Added 12 oz of bocheted honey and let continue fermentation. '
     },
     aging: {
