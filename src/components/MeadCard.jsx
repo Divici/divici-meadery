@@ -30,6 +30,9 @@ const MeadCard = ({mead}) => {
             </div>
             <img src={images.bottle} alt='bottle' className='h-5 absolute bottom-8 right-8 opacity-70 cursor-pointer' onClick={handleClick} />
         </div>
+        {mead.info.award && 
+          <img src={images[`award${mead.info.award}`]} alt='award' className='h-1/2 absolute top-12 left-0' />
+        }
     </motion.div>
   )
 }

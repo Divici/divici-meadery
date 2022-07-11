@@ -385,6 +385,9 @@ const meads = [
     image: images.meadBottle1,
     info: {
         name: 'Tupelo Woods',
+        award: 3,
+        competition: 'Mead Stampede 2022',
+        compCategory: 'Semi-Sweet Traditionals',
         type: ['traditional', 'hydromel'],
         size: '1 gallon',
         honey: ['Tupelo', 'Sourwood'],

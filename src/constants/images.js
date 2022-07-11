@@ -12,10 +12,13 @@ import meadBottle7 from '../assets/Mead-Bottle7.png';
 import meadGlass from '../assets/MeadAndGlass.png';
 import bottle from '../assets/bottle.png';
 import bottleC from '../assets/bottle-c.png';
-import award01 from '../assets/award01.png';
-import award02 from '../assets/award02.png';
-import award03 from '../assets/award03.png';
-import award05 from '../assets/award05.png';
+import ribbon from '../assets/ribbon.png';
+import ribbon1 from '../assets/ribbon1.png';
+import ribbon2 from '../assets/ribbon2.png';
+import ribbon3 from '../assets/ribbon3.png';
+import award1 from '../assets/award1.png';
+import award2 from '../assets/award2.png';
+import award3 from '../assets/award3.png';
 import gallonMead from '../assets/WCC-Gallon.png';
 import divici from '../assets/Divici-md-bg-none.png';
 import banner from '../assets/banner.png'
@@ -34,10 +37,13 @@ export default {
   meadGlass,
   bottle,
   bottleC,
-  award01,
-  award02,
-  award03,
-  award05,
+  ribbon,
+  ribbon1,
+  ribbon2,
+  ribbon3,
+  award1,
+  award2,
+  award3,
   gallonMead,
   divici,
   banner,
